@@ -9,10 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var token:TokenObverable
-
+    @State var showAlert:Bool = false
     var body: some View {
-        let content: some View = token.token == "" ? AnyView(Login()) : AnyView(MainView())
-        content
+        if (KeychainHelper.getToken(key: "apiKey") != nil || token.loggedIn) {
+            
+            MainView().alert(isPresented: $showAlert) {
+                Alert(
+                    title: Text("Welcome!"),
+                    message: Text("You have successfully signed in."),
+                    dismissButton: .default(Text("OK"))
+                )
+            }
+            .padding()
+        }else{
+            SignupForm(showAlert: $showAlert)
+        }
             
     }
 }

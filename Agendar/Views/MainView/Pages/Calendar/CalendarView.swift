@@ -23,7 +23,6 @@ struct CalendarView: View {
             
 
             Spacer()
-            Text(getCurrentDay())
         }.onAppear {
             selectedDay = getCurrentDay()
         }

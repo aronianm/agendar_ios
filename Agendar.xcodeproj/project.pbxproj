@@ -7,38 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611BB4232B21566200F07369 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BB4222B21566200F07369 /* UserModel.swift */; };
+		611BB4292B21643A00F07369 /* TeamCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BB4282B21643A00F07369 /* TeamCode.swift */; };
+		611BB42B2B2168D900F07369 /* UserObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BB42A2B2168D900F07369 /* UserObservable.swift */; };
+		611BB42E2B21708500F07369 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BB42D2B21708500F07369 /* KeychainHelper.swift */; };
+		611BB4312B21813E00F07369 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BB4302B21813E00F07369 /* TeamView.swift */; };
+		611BB4332B2181AD00F07369 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BB4322B2181AD00F07369 /* TeamModel.swift */; };
+		611BB4352B2181D900F07369 /* TeamObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BB4342B2181D900F07369 /* TeamObservable.swift */; };
+		611BB4372B21890B00F07369 /* TeamPlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BB4362B21890B00F07369 /* TeamPlayerListView.swift */; };
+		611BB4392B2189A400F07369 /* TeamPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BB4382B2189A400F07369 /* TeamPlayerModel.swift */; };
 		61AF94702B20C0B00079A24C /* AgendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF946F2B20C0B00079A24C /* AgendarApp.swift */; };
 		61AF94722B20C0B00079A24C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF94712B20C0B00079A24C /* ContentView.swift */; };
 		61AF94742B20C0B20079A24C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AF94732B20C0B20079A24C /* Assets.xcassets */; };
 		61AF94772B20C0B20079A24C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AF94762B20C0B20079A24C /* Preview Assets.xcassets */; };
 		61AF947F2B20C1110079A24C /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF947E2B20C1110079A24C /* Toolbar.swift */; };
-		61AF94832B20C2CE0079A24C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF94822B20C2CE0079A24C /* Login.swift */; };
 		61AF94862B20C4D40079A24C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF94852B20C4D40079A24C /* MainView.swift */; };
-		61AF94892B20C5330079A24C /* UserToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF94882B20C5330079A24C /* UserToolbar.swift */; };
 		61AF948C2B20C8760079A24C /* TokenObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF948B2B20C8760079A24C /* TokenObservable.swift */; };
 		61AF948F2B20CA090079A24C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF948E2B20CA090079A24C /* HomeView.swift */; };
 		61AF94922B20CABB0079A24C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF94912B20CABB0079A24C /* CalendarView.swift */; };
 		61AF94952B20E7A20079A24C /* CalendarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF94942B20E7A20079A24C /* CalendarHeader.swift */; };
 		61AF94972B20E7C80079A24C /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF94962B20E7C80079A24C /* CalendarDay.swift */; };
 		61AF94992B20EB0C0079A24C /* CalendarHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF94982B20EB0C0079A24C /* CalendarHour.swift */; };
+		61AF949B2B20F1050079A24C /* SignupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF949A2B20F1050079A24C /* SignupForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		611BB4222B21566200F07369 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		611BB4282B21643A00F07369 /* TeamCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCode.swift; sourceTree = "<group>"; };
+		611BB42A2B2168D900F07369 /* UserObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObservable.swift; sourceTree = "<group>"; };
+		611BB42D2B21708500F07369 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		611BB4302B21813E00F07369 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		611BB4322B2181AD00F07369 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		611BB4342B2181D900F07369 /* TeamObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamObservable.swift; sourceTree = "<group>"; };
+		611BB4362B21890B00F07369 /* TeamPlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPlayerListView.swift; sourceTree = "<group>"; };
+		611BB4382B2189A400F07369 /* TeamPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPlayerModel.swift; sourceTree = "<group>"; };
 		61AF946C2B20C0B00079A24C /* Agendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AF946F2B20C0B00079A24C /* AgendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendarApp.swift; sourceTree = "<group>"; };
 		61AF94712B20C0B00079A24C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		61AF94732B20C0B20079A24C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61AF94762B20C0B20079A24C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		61AF947E2B20C1110079A24C /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
-		61AF94822B20C2CE0079A24C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		61AF94852B20C4D40079A24C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		61AF94882B20C5330079A24C /* UserToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserToolbar.swift; sourceTree = "<group>"; };
 		61AF948B2B20C8760079A24C /* TokenObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenObservable.swift; sourceTree = "<group>"; };
 		61AF948E2B20CA090079A24C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		61AF94912B20CABB0079A24C /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		61AF94942B20E7A20079A24C /* CalendarHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeader.swift; sourceTree = "<group>"; };
 		61AF94962B20E7C80079A24C /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
 		61AF94982B20EB0C0079A24C /* CalendarHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHour.swift; sourceTree = "<group>"; };
+		61AF949A2B20F1050079A24C /* SignupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		611BB41F2B21563200F07369 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		611BB4202B21564700F07369 /* Codables */ = {
+			isa = PBXGroup;
+			children = (
+				611BB4222B21566200F07369 /* UserModel.swift */,
+				611BB4322B2181AD00F07369 /* TeamModel.swift */,
+				611BB4382B2189A400F07369 /* TeamPlayerModel.swift */,
+			);
+			path = Codables;
+			sourceTree = "<group>";
+		};
+		611BB4262B21641200F07369 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				611BB4272B21642500F07369 /* AuthenticationViews */,
+				61AF94842B20C4C70079A24C /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		611BB4272B21642500F07369 /* AuthenticationViews */ = {
+			isa = PBXGroup;
+			children = (
+				61AF949A2B20F1050079A24C /* SignupForm.swift */,
+				611BB4282B21643A00F07369 /* TeamCode.swift */,
+			);
+			path = AuthenticationViews;
+			sourceTree = "<group>";
+		};
+		611BB42C2B21707900F07369 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				611BB42D2B21708500F07369 /* KeychainHelper.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		611BB42F2B21813300F07369 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				611BB4302B21813E00F07369 /* TeamView.swift */,
+				611BB4362B21890B00F07369 /* TeamPlayerListView.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
 		61AF94632B20C0B00079A24C = {
 			isa = PBXGroup;
 			children = (
@@ -71,14 +139,16 @@
 		61AF946E2B20C0B00079A24C /* Agendar */ = {
 			isa = PBXGroup;
 			children = (
-				61AF948A2B20C8670079A24C /* Configuration */,
-				61AF94842B20C4C70079A24C /* MainView */,
+				611BB42C2B21707900F07369 /* Config */,
+				611BB4262B21641200F07369 /* Views */,
+				611BB4202B21564700F07369 /* Codables */,
+				611BB41F2B21563200F07369 /* ViewModal */,
+				61AF948A2B20C8670079A24C /* ObservableObject */,
 				61AF947D2B20C1000079A24C /* Navigation */,
 				61AF946F2B20C0B00079A24C /* AgendarApp.swift */,
 				61AF94712B20C0B00079A24C /* ContentView.swift */,
 				61AF94732B20C0B20079A24C /* Assets.xcassets */,
 				61AF94752B20C0B20079A24C /* Preview Content */,
-				61AF94822B20C2CE0079A24C /* Login.swift */,
 			);
 			path = Agendar;
 			sourceTree = "<group>";
@@ -103,31 +173,25 @@
 			isa = PBXGroup;
 			children = (
 				61AF948D2B20C9F60079A24C /* Pages */,
-				61AF94872B20C5270079A24C /* Navigation */,
 				61AF94852B20C4D40079A24C /* MainView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
 		};
-		61AF94872B20C5270079A24C /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				61AF94882B20C5330079A24C /* UserToolbar.swift */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
-		61AF948A2B20C8670079A24C /* Configuration */ = {
+		61AF948A2B20C8670079A24C /* ObservableObject */ = {
 			isa = PBXGroup;
 			children = (
 				61AF948B2B20C8760079A24C /* TokenObservable.swift */,
+				611BB42A2B2168D900F07369 /* UserObservable.swift */,
+				611BB4342B2181D900F07369 /* TeamObservable.swift */,
 			);
-			path = Configuration;
+			path = ObservableObject;
 			sourceTree = "<group>";
 		};
 		61AF948D2B20C9F60079A24C /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				611BB42F2B21813300F07369 /* Team */,
 				61AF94932B20E77F0079A24C /* Calendar */,
 				61AF948E2B20CA090079A24C /* HomeView.swift */,
 			);
@@ -216,17 +280,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				61AF94972B20E7C80079A24C /* CalendarDay.swift in Sources */,
+				611BB4332B2181AD00F07369 /* TeamModel.swift in Sources */,
 				61AF947F2B20C1110079A24C /* Toolbar.swift in Sources */,
 				61AF94722B20C0B00079A24C /* ContentView.swift in Sources */,
-				61AF94892B20C5330079A24C /* UserToolbar.swift in Sources */,
+				611BB42B2B2168D900F07369 /* UserObservable.swift in Sources */,
 				61AF948C2B20C8760079A24C /* TokenObservable.swift in Sources */,
+				611BB4292B21643A00F07369 /* TeamCode.swift in Sources */,
+				611BB4372B21890B00F07369 /* TeamPlayerListView.swift in Sources */,
 				61AF94992B20EB0C0079A24C /* CalendarHour.swift in Sources */,
 				61AF94952B20E7A20079A24C /* CalendarHeader.swift in Sources */,
+				61AF949B2B20F1050079A24C /* SignupForm.swift in Sources */,
+				611BB4232B21566200F07369 /* UserModel.swift in Sources */,
 				61AF94702B20C0B00079A24C /* AgendarApp.swift in Sources */,
+				611BB4312B21813E00F07369 /* TeamView.swift in Sources */,
 				61AF94922B20CABB0079A24C /* CalendarView.swift in Sources */,
 				61AF948F2B20CA090079A24C /* HomeView.swift in Sources */,
+				611BB4352B2181D900F07369 /* TeamObservable.swift in Sources */,
+				611BB4392B2189A400F07369 /* TeamPlayerModel.swift in Sources */,
 				61AF94862B20C4D40079A24C /* MainView.swift in Sources */,
-				61AF94832B20C2CE0079A24C /* Login.swift in Sources */,
+				611BB42E2B21708500F07369 /* KeychainHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
